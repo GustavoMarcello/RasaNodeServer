@@ -1,0 +1,22 @@
+{
+  "name": "rasanodeserver",
+  "version": "1.0.0",
+  "description": "rasa node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoMarcello/RasaNodeServer.git"
+  },
+  "author": "gustavo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoMarcello/RasaNodeServer/issues"
+  },
+  "homepage": "https://github.com/GustavoMarcello/RasaNodeServer#readme",
+  "dependencies": {
+    "rasa-node-action-server": "^0.2.0"
+  }
+}

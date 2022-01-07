@@ -1,0 +1,23 @@
+version: "2.0"
+
+rules:
+- rule: tchau
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+- rule: tchau
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: tchau
+  steps:
+  - intent: node
+  - action: action_welcome_node
+
+- rule: check
+  steps:
+  - intent: check_server
+  - action: action_check_node
+

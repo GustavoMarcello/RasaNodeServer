@@ -1,0 +1,24 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - node
+  - check_server
+
+responses:
+  utter_greet:
+  - text: "Oi, tudo bem!"
+
+  utter_goodbye:
+  - text: "Até mais"
+
+actions:
+- action_welcome_node
+- action_check_node
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
